@@ -14,11 +14,11 @@ The next R script "mlb standings graphics.R" takes the combined data and transfo
 The final R script "final output Rmd.Rmd" is just a simple Rmarkdown file that generates an output of an html file containing each animation.
 
 The order to run the scripts are:
-1) "current date scraper.ipynb" or "past date scraper.ipynb" (Note: this would have to be done every day from the beginning of the season so I also included the data from the beginning until September 9th.
+1) "current date scraper.ipynb" or "past date scraper.ipynb" (Note: this would have to be done every day from the beginning of the season. I am working on including the data from the beginning until September 9th. However the file size is very large)
 2) "mlb standings format.R"
 3) "mlb standings graphics.R"
 4) "final output Rmd.Rmd"
 
-To skip the scripts and just view the final output you can just click on "final-output-Rmd.html"
+To skip the scripts and just view the final output you can just open "final-output-Rmd.html"
 
 This is not the complete season standings, only through today September 9th 2020.
