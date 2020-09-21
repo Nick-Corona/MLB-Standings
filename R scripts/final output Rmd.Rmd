@@ -1,0 +1,37 @@
+---
+title: "MLB Division Standings"
+author: "By Nick Corona"
+output: html_document
+date: "As of `r format(Sys.time(), '%m/%d/%y')`"
+---
+
+```{r setup, include=FALSE, fig.show="hold", out.width="60%"}
+knitr::opts_chunk$set(echo = F)
+#setwd("") set the working directory
+load(file = "MLB_standings_workspace.RData")
+```
+
+```{r, echo=FALSE,fig.show="hold", out.width="60%"}
+AL_East_animate
+```
+
+```{r, echo=FALSE,fig.show="hold", out.width="60%"}
+AL_Central_animate
+```
+
+```{r, echo=FALSE, fig.show="hold", out.width="60%"}
+AL_West_animate
+```
+
+
+```{r, echo=FALSE, fig.show="hold", out.width="60%"}
+NL_East_animate
+```
+
+```{r, echo=FALSE, fig.show="hold", out.width="60%"}
+NL_Central_animate
+```
+
+```{r, echo=FALSE, fig.show="hold", out.width="60%"}
+NL_West_animate
+```
