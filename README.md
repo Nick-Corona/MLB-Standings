@@ -24,4 +24,4 @@ Or just look inside the "individual gifs" folder to view the outputs generated s
 
 This is not the complete season standings, only through today September 9th 2020.
 
-(Due to the data file being too large Github does not allow me to upload it. The only way to obtain the data is to run the "full season scraper.ipynb"
+(Due to the data file being too large Github does not allow me to upload it. The only way to obtain the data is to run the "full season scraper.ipynb"/"full season scraper.py"
