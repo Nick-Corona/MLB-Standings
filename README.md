@@ -1,7 +1,15 @@
 # MLB-Standings
 
 The purpose of this project is to create a visualization of the changes of the MLB standings for each division over the course of the 2020 season.
-In order to accomplish this I created a webscraper using python to download the current MLB standings every day from the popular baseball statistics website https://www.baseball-reference.com/ then import the data into R and use ggplot and gganimate to create animated graphs of the standings for each division in the MLB.
+In order to accomplish this I created a webscraper using python to download the current MLB standings every day from the popular baseball statistics website https://www.baseball-reference.com/ 
+
+Here is a screenshot of the data the webscraper will be downloading:
+
+![](https://imgur.com/a/lNxCJ2r)
+
+
+
+then import the data into R and use ggplot and gganimate to create animated graphs of the standings for each division in the MLB.
 
 There are three versions of my webscraper, the current date scraper, the past date scraper, and the full season scraper. The current date scraper must be ran every day to obtain the standings of the current date; however if a day is missed or forgotten the past date scraper allows to go back to any date and download the standings for that date. Then the full season scraper just needs to be ran once and it downloads the full standings for the entire 2020 season.
 
