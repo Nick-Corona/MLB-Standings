@@ -11,7 +11,7 @@ The first R script "mlb standings format.R" takes each individual days standings
 
 The next R script "mlb standings graphics.R" takes the combined data and transforms it into a usable format for ggplot while also adding data for team logos and colors. Then it generates animated ggplot gifs for each division.
 
-The final R script "final output Rmd.Rmd" is just a simple Rmarkdown file that generates an output of an html file containing each animation.
+The final R script "final output Rmd.Rmd" is just a simple Rmarkdown file that generates an output of an html file containing each animation. This file is too large to view dorectly in github since it contains an animation for every division in baseball so in order to view it, it must be downloaded.
 
 The order to run the scripts are:
 1) "full season scraper.ipynb" (the other two: "current date scraper.ipynb" or "past date scraper.ipynb" will work also but not show the full season)
@@ -21,7 +21,5 @@ The order to run the scripts are:
 
 To skip the scripts and just view the final output you can download "final-output-Rmd.html"
 Or just look inside the "individual gifs" folder to view the outputs generated separately.
-
-This is not the complete season standings, only through today September 9th 2020.
 
 (Due to the data file being too large Github does not allow me to upload it. The only way to obtain the data is to run the "full season scraper.ipynb"/"full season scraper.py"
